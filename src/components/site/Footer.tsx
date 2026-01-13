@@ -8,7 +8,10 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-3">
             <div className="flex items-center gap-2">
-              <div className="size-8 rounded-lg bg-primary" />
+              {/* <div className="size-8 rounded-lg bg-primary" /> */}
+              <img src={'/logo.jpeg'}
+            className="size-8 rounded-lg bg-primary"
+            alt="" />
               <span className="text-sm font-semibold tracking-tight">
              World Radiance International
               </span>

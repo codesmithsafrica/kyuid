@@ -20,10 +20,6 @@ export function Navbar() {
           {/* <div className="size-8 rounded-lg bg-primary" /> */}
           <img src={'/logo.jpeg'}
             className="size-8 rounded-lg bg-primary"
-            // className={clsx({
-            //   'h-20 ': !size,
-            //   'h-10': size === 'sm'
-            // })}
             alt="" />
           <span className="text-sm font-semibold tracking-tight sm:text-base">
             Kenya Youth Unity in Diversity
@@ -97,7 +93,7 @@ export function Navbar() {
 
                 <Button asChild className="mt-4">
                   <Link href="/join" className="inline-flex items-center gap-1">
-                    Get involved <ArrowRight className="size-4" />
+                    Get Involved <ArrowRight className="size-4" />
                   </Link>
                 </Button>
               </div>
