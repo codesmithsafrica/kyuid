@@ -10,13 +10,21 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-
+//  import Logo from "../../../"
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <div className="size-8 rounded-lg bg-primary" />
+          {/* <div className="size-8 rounded-lg bg-primary" /> */}
+          <img src={'/logo.jpeg'}
+            className="size-8 rounded-lg bg-primary"
+            // className={clsx({
+            //   'h-20 ': !size,
+            //   'h-10': size === 'sm'
+            // })}
+            alt="" />
           <span className="text-sm font-semibold tracking-tight sm:text-base">
             Kenya Youth Unity in Diversity
           </span>
@@ -35,21 +43,21 @@ export function Navbar() {
               <NavigationMenuItem>
                 <Link href="/about" legacyBehavior passHref>
                   <NavigationMenuLink className="px-3 py-2 text-sm font-medium hover:text-primary">
-                    About
+                    About WRI (Our Origins)
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/programs" legacyBehavior passHref>
                   <NavigationMenuLink className="px-3 py-2 text-sm font-medium hover:text-primary">
-                    Programs
+                    KYUID Program
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <Link href="/contact" legacyBehavior passHref>
                   <NavigationMenuLink className="px-3 py-2 text-sm font-medium hover:text-primary">
-                    Contact
+                    Our Impact (The Gen Z Awakening)
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
@@ -60,7 +68,7 @@ export function Navbar() {
         <div className="hidden items-center gap-2 md:flex">
           <Button asChild size="sm">
             <Link href="/join" className="inline-flex items-center gap-1">
-              Join Us <ArrowRight className="size-4" />
+              Get Involved <ArrowRight className="size-4" />
             </Link>
           </Button>
         </div>
@@ -78,17 +86,18 @@ export function Navbar() {
                   Home
                 </Link>
                 <Link href="/about" className="text-sm font-medium">
-                  About
+                  About WRI (Our Origins)
                 </Link>
                 <Link href="/programs" className="text-sm font-medium">
-                  Programs
+                  KYUID Program
                 </Link>
                 <Link href="/contact" className="text-sm font-medium">
-                  Contact
+                  Our Impact (The Gen Z Awakening)
                 </Link>
+
                 <Button asChild className="mt-4">
                   <Link href="/join" className="inline-flex items-center gap-1">
-                    Join Us <ArrowRight className="size-4" />
+                    Get involved <ArrowRight className="size-4" />
                   </Link>
                 </Button>
               </div>

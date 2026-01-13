@@ -14,7 +14,9 @@ export default function Home() {
             <Badge variant="secondary" className="h-7 rounded-full px-3">
               Youth Voice • National Impact
             </Badge>
-            <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
+            <h1 style={{
+              color:"#418FE2"
+            }}className="text-4xl font-semibold tracking-tight sm:text-5xl">
               Kenya Youth Unity in Diversity
             </h1>
             <p className="max-w-prose text-lg text-muted-foreground">
@@ -23,7 +25,7 @@ export default function Home() {
             <div className="flex flex-col gap-3 sm:flex-row">
               <Button asChild size="lg">
                 <Link href="/join" className="inline-flex items-center gap-2">
-                  Join Us <ArrowRight className="size-4" />
+                  Get Involved <ArrowRight className="size-4" />
                 </Link>
               </Button>
               <Button asChild size="lg" variant="outline">
@@ -33,11 +35,11 @@ export default function Home() {
             <div className="flex items-center gap-6 pt-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Users className="size-4" />
-                10k+ members
+                10 members
               </div>
               <div className="flex items-center gap-2">
                 <Megaphone className="size-4" />
-                100+ policy dialogues
+                1+ policy dialogues
               </div>
             </div>
           </div>
@@ -65,7 +67,9 @@ export default function Home() {
       <section className="container mx-auto px-4 py-16">
         <div className="mb-8 flex items-end justify-between">
           <div>
-            <h2 className="text-2xl font-semibold tracking-tight">Focus Areas</h2>
+            <h2  style={{
+              color:"#418FE2"
+            }} className="text-2xl font-semibold tracking-tight">Focus Areas</h2>
             <p className="text-muted-foreground">Where we drive meaningful change</p>
           </div>
         </div>
@@ -116,7 +120,9 @@ export default function Home() {
       <section className="container mx-auto px-4 pb-20">
         <div className="mb-8 flex items-end justify-between">
           <div>
-            <h2 className="text-2xl font-semibold tracking-tight">Programs</h2>
+            <h2  style={{
+              color:"#418FE2"
+            }} className="text-2xl font-semibold tracking-tight">Programs</h2>
             <p className="text-muted-foreground">Highlights from our national programs</p>
           </div>
           <Button asChild variant="ghost">

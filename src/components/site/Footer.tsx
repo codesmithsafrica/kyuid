@@ -10,41 +10,38 @@ export function Footer() {
             <div className="flex items-center gap-2">
               <div className="size-8 rounded-lg bg-primary" />
               <span className="text-sm font-semibold tracking-tight">
-                Kenya Youth Unity in Diversity
+             World Radiance International
               </span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Advocating for meaningful inclusion of Kenyan youth in decision-making across communities and institutions.
+            Empowering Kenyan Youth since 2007.
             </p>
           </div>
+             {/* <h4 className="mb-3 text-sm font-semibold">Founders:</h4> */}
 
           <div>
-            <h4 className="mb-3 text-sm font-semibold">Organization</h4>
+            <h4 className="mb-3 text-sm font-semibold">Founders</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href="/about" className="hover:text-foreground">
-                  About
+                <Link href="#" className="hover:text-foreground">
+                  Peris Nyambura
                 </Link>
               </li>
               <li>
-                <Link href="/programs" className="hover:text-foreground">
-                  Programs
+                <Link href="#" className="hover:text-foreground">
+                  Mohamed Adan
                 </Link>
               </li>
               <li>
-                <Link href="/join" className="hover:text-foreground">
-                  Join Us
+                <Link href="#" className="hover:text-foreground">
+                  Athanas Mwangagi
                 </Link>
               </li>
-              <li>
-                <Link href="/contact" className="hover:text-foreground">
-                  Contact
-                </Link>
-              </li>
+  
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h4 className="mb-3 text-sm font-semibold">Focus Areas</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Youth Leadership</li>
@@ -73,7 +70,7 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         <Separator className="my-8" />
