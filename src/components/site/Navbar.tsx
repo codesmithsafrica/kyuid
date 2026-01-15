@@ -18,6 +18,9 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           {/* <div className="size-8 rounded-lg bg-primary" /> */}
+             <img src={'/worldradiance.jpeg'}
+            className="h-6 rounded-lg bg-primary"
+            alt="" />
           <img src={'/logo.jpeg'}
             className="size-8 rounded-lg bg-primary"
             alt="" />
