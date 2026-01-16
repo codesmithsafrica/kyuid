@@ -16,38 +16,7 @@ export default function ContactPage() {
         Have a question or partnership idea? Send us a message.
       </p>
 
-      <Card className="mt-8">
-        <CardHeader>
-          <CardTitle className="text-base">Send a Message</CardTitle>
-        </CardHeader>
-        <CardContent>
-          {sent ? (
-            <div className="text-sm">Thanks for reaching out! We'll get back to you soon.</div>
-          ) : (
-            <form
-              className="grid gap-4"
-              onSubmit={(e) => {
-                e.preventDefault();
-                setSent(true);
-              }}
-            >
-              <div className="grid gap-2">
-                <label className="text-sm">Name</label>
-                <Input required placeholder="Jane Doe" />
-              </div>
-              <div className="grid gap-2">
-                <label className="text-sm">Email</label>
-                <Input required type="email" placeholder="jane@example.com" />
-              </div>
-              <div className="grid gap-2">
-                <label className="text-sm">Message</label>
-                <Textarea required rows={5} placeholder="How can we help?" />
-              </div>
-              <Button type="submit" className="mt-2">Send</Button>
-            </form>
-          )}
-        </CardContent>
-      </Card>
+
     </div>
   );
 }
