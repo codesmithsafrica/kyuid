@@ -11,12 +11,14 @@ export default function JoinPage() {
 
   return (
     <div className="container mx-auto max-w-2xl px-4 py-12">
-      <h1 className="text-3xl font-semibold tracking-tight">Join Us</h1>
+      <h1  style={{
+         color: "#418FE2"
+      }} className="text-3xl font-semibold tracking-tight">Join Us</h1>
       <p className="mt-3 text-muted-foreground">
         Become a member or volunteer and help shape youth-inclusive decisions across Kenya.
       </p>
 
-      <Card className="mt-8">
+      {/* <Card className="mt-8">
         <CardHeader>
           <CardTitle className="text-base">Membership Form</CardTitle>
         </CardHeader>
@@ -51,7 +53,7 @@ export default function JoinPage() {
             </form>
           )}
         </CardContent>
-      </Card>
+      </Card> */}
     </div>
   );
 }

@@ -85,7 +85,7 @@ export default function AboutPage() {
               WRI is mandated to provide training and advocacy. We focus on changing the attitudes of
           youth across our specific focus areas:
         </p>
-                <ul className="list-inside list-disc">
+        <ul className="list-inside list-disc">
           <li className="mb-2">Environment</li>
           <li className="mb-2">Culture</li>
           <li className="mb-2">Education</li>
