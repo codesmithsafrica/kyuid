@@ -23,6 +23,10 @@ export default function ProgramsPage() {
   return (
     <div className="container mx-auto px-4 py-12 m max-w-4xl ">
       <h1 style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} className="text-4xl mb-4 font-semibold tracking-tight">The KYUID Program</h1>
+      <h1 style={{
         color: "#418FE2"
       }} className="text-3xl font-semibold tracking-tight">Kenya Youth: Unity in Diversity</h1>
       <p className="mt-3 max-w-prose text-muted-foreground">
@@ -111,55 +115,55 @@ export default function ProgramsPage() {
       <h1 style={{
         color: "#418FE2",
         fontWeight: "bold"
-      }} className="text-3xl mt-6 font-semibold tracking-tight">How the Two Hands Work Together</h1>    
+      }} className="text-3xl mt-6 font-semibold tracking-tight">How the Two Hands Work Together</h1>
 
-<div className="relative overflow-x-auto bg-neutral-primary-soft shadow-xs mt-4 rounded-base border border-default">
-    <table className="w-full text-sm  text-muted-foreground text-left rtl:text-right text-body">
-        <thead className="text-sm text-body bg-neutral-secondary-soft border-b rounded-base border-default">
+      <div className="relative overflow-x-auto bg-neutral-primary-soft shadow-xs mt-4 rounded-base border border-default">
+        <table className="w-full text-sm  text-muted-foreground text-left rtl:text-right text-body">
+          <thead className="text-sm text-body bg-neutral-secondary-soft border-b rounded-base border-default">
             <tr>
-                <th scope="col" className="px-6 py-3 font-medium">
-                   The Scenario
-                </th>
-                <th scope="col" className="px-6 py-3 font-medium">
-                  The Training Hand
-                </th>
-                <th scope="col" className="px-6 py-3 font-medium">
-                  The Advocacy Hand
-                </th>
-  
+              <th scope="col" className="px-6 py-3 font-medium">
+                The Scenario
+              </th>
+              <th scope="col" className="px-6 py-3 font-medium">
+                The Training Hand
+              </th>
+              <th scope="col" className="px-6 py-3 font-medium">
+                The Advocacy Hand
+              </th>
+
             </tr>
-        </thead>
-        <tbody>
+          </thead>
+          <tbody>
             <tr className="bg-neutral-primary border-b border-default">
-                <th scope="row" className="px-6 py-4 font-medium text-heading whitespace-nowrap">
-                   Finance Bill
-                </th>
-                <td className="px-6 py-4">
-                   Teaches you how to read
-              and analyze the budget.
-                </td>
-                <td className="px-6 py-4">
-                    Organizes
-                </td>
-             
+              <th scope="row" className="px-6 py-4 font-medium text-heading whitespace-nowrap">
+                Finance Bill
+              </th>
+              <td className="px-6 py-4">
+                Teaches you how to read
+                and analyze the budget.
+              </td>
+              <td className="px-6 py-4">
+                Organizes
+              </td>
+
             </tr>
 
-        </tbody>
-    </table>
-</div>
+          </tbody>
+        </table>
+      </div>
 
       <h1 style={{
         color: "#418FE2",
       }} className="text-3xl mt-3 font-semibold tracking-tight">A Note to the Youth:</h1>
-       <p className="mt-3 mb-3 text-muted-foreground">Training without Advocacy makes you a "silent expert"—you have the skill but no power to
-       use it.</p>
+      <p className="mt-3 mb-3 text-muted-foreground">Training without Advocacy makes you a "silent expert"—you have the skill but no power to
+        use it.</p>
       <p className="mt-3 mb-3 text-muted-foreground">Advocacy without Training makes you a "loud amateur"—you have the passion but no
         facts to back it up.</p>
       <h1 style={{
         color: "#418FE2",
       }} className="text-3xl mt-3 font-semibold tracking-tight">Why We Train (The Strategy)</h1>
       <p className="mt-3 mb-3 text-muted-foreground">We believe that information is the greatest equalizer. By putting legal expertise into the
-      hands of the youth, we ensure that:</p>
+        hands of the youth, we ensure that:</p>
       <ol className="list-inside text-muted-foreground list-decimal">
         <li className="mb-2">You are protected: You know your rights under the Constitution.</li>
         <li className="mb-2">You are professional: Your engagement with the government is backed by facts and
@@ -173,7 +177,7 @@ export default function ProgramsPage() {
       <p className="mt-3 mb-3 text-muted-foreground">In a leaderless movement, every member must be trained. If only one person knows the
         law, the movement is vulnerable. When all youth are trained in their constitutional rights, the
         movement becomes an unstoppable force for ethical governance.</p>
-        <p className="mt-6 mb-3 text-muted-foreground">KYUID gives you both.</p>
+      <p className="mt-6 mb-3 text-muted-foreground">KYUID gives you both.</p>
       {/* <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {programs.map((p) => (
           <Card key={p.title}>

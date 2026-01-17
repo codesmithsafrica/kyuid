@@ -1,6 +1,10 @@
 export default function AboutPage() {
   return (
     <div className="container mx-auto max-w-4xl px-4 py-12">
+            <h1 style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} className="text-4xl mb-4 font-semibold tracking-tight">About World Radiance International (WRI)</h1>
       <h1 style={{
         color: "#418FE2"
       }} className="text-3xl font-semibold tracking-tight">Our Inception and History</h1>
