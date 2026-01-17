@@ -12,7 +12,7 @@ export default function AboutPage() {
           World Radiance International is a dedicated youth organization that has been active since its
           inception in 2007.
       </p> */}
-      <div className="prose prose-sm mt-6 pb-4 dark:prose-invert">
+      <div className="prose text-muted-foreground prose-sm mt-6 pb-4 dark:prose-invert">
         <p>
           World Radiance International is a dedicated youth organization that has been active since its
           inception in 2007.
@@ -31,20 +31,20 @@ export default function AboutPage() {
           World Radiance International is a dedicated youth organization that has been active since its
           inception in 2007.
       </p> */}
-      <div className="prose prose-sm mt-6 dark:prose-invert">
+      <div className="prose text-muted-foreground prose-sm mt-6 dark:prose-invert">
         <p>
           World Radiance International (WRI) was founded in 2007 by three visionary Kenyans who
           believed in the power of the youth.
         </p>
         <h2 style={{
           color: "#418FE2"
-        }} className="text-xl my-4 font-semibold tracking-tight">Peris Nyambura – Visionary & Philanthropist</h2>
-        <p>
+        }} className="text-xl my-4 text-muted-foreground font-semibold tracking-tight">Peris Nyambura – Visionary & Philanthropist</h2>
+        <p className="mt-3 ml-4 text-muted-foreground">
           Peris is the driving force behind the vision of WRI. Her commitment to community
           development has been recognized with an Honorary Doctorate Degree in Community
           Development from Peace Christian University. Beyond WRI, her impact includes:
         </p>
-        <ul className="list-inside list-disc">
+        <ul className="list-inside ml-4 list-disc">
           <li className="mb-2">Education: Founder of World Radiance Bible Training College (TVET Approved).
             This institution helps pastors with a calling but lower grades attain certified academic
             papers, moving them away from the market of fake professional papers. This work is
@@ -61,15 +61,15 @@ export default function AboutPage() {
         <h2 style={{
           color: "#418FE2"
         }} className="text-xl my-4 font-semibold tracking-tight">Mohamed Adan – Chairman</h2>
-        <p>
+        <p className="mt-3 ml-4 text-muted-foreground">
           As the Chairman of WRI, Mohamed is a philanthropist dedicated to making a better world.
           He is also the founder of Alexander Mercy Home, showcasing his deep commitment to
           social welfare and humanitarian service.
         </p>
         <h2 style={{
           color: "#418FE2"
-        }} className="text-xl my-4 font-semibold tracking-tight">Athanas Mwangagi – Co-Founder</h2>
-        <p>
+        }} className="text-xl my-4 text-muted-foreground font-semibold tracking-tight">Athanas Mwangagi – Co-Founder</h2>
+        <p className="mt-3 ml-4 text-muted-foreground">
           Athanas brings a heart of service through his background in Medicine. A devoted Christian,
           he utilizes his physician skills to provide medical assistance to the needy within the
           community, ensuring health remains a pillar of our development work.
@@ -77,7 +77,7 @@ export default function AboutPage() {
         <h2 style={{
           color: "#418FE2"
         }} className="text-xl my-4 font-semibold tracking-tight">Main Objective</h2>
-        <p>
+        <p className="mt-3 text-muted-foreground">
           Our primary goal is to promote good governance, ethics, and livelihoods, especially
           amongst the youth. We believe that by equipping young people today, we enable them to
           become effective leaders within their homes and their countries.
@@ -85,7 +85,7 @@ export default function AboutPage() {
         <h2 style={{
           color: "#418FE2"
         }} className="text-xl my-4 font-semibold tracking-tight">Our Mandate</h2>
-        <p>
+        <p className="mt-3 text-muted-foreground">
               WRI is mandated to provide training and advocacy. We focus on changing the attitudes of
           youth across our specific focus areas:
         </p>
