@@ -188,6 +188,9 @@ export default function ContactPage() {
 professionals and advocates dedicated to the intellectual and constitutional arming of
 Kenyan youth.
         </p>
+                              <h1 style={{
+        color: "#418FE2"
+      }} className="text-3xl mt-4 mb-6 font-semibold tracking-tight">Our Education & Mentorship Leadership</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-4 lg:grid-cols-3 xl:grid-cols-2 gap-2">
           {teamMembers1.map((member) => (
             <TeamCard
