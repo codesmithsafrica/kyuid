@@ -72,7 +72,7 @@ export default function TeamCard({ userpic, name, quote, bio, role }: TeamCardPr
         </div>
         
         {/* Bottom gradient accent */}
-        <div className="h-2 bg-gradient-to-r from-purple-500 to-pink-500" />
+        <div className="h-2 bg-gradient-to-r from-purple-500 to-blue-500" />
       </div>
     </div>
   );

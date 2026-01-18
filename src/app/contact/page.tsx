@@ -23,8 +23,11 @@ export default function ContactPage() {
         WRI and the KYUID program serve as the official platform to ensure that youth inclusion is
         not just a moment, but a permanent seat at the decision-making table.
       </p>
-      <p className="mt-3 text-muted-foreground">
-        The Gen Z protests of 2024 served as a profound "eye-opener" for Kenya’s leadership and
+      <p className="mt-3 text-muted-foreground">The
+         <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} > Gen Z protests of  2024 </span>served as a profound "eye-opener" for Kenya’s leadership and
         society at large. It highlighted the urgent need for youth inclusion in high-level
         decision-making.
       </p>
@@ -32,9 +35,18 @@ export default function ContactPage() {
         The youth came out in unprecedented numbers to:
       </p>
       <ol className="list-inside text-muted-foreground list-decimal">
-        <li className="mb-2">Voice their decision regarding the Finance Bill.</li>
-        <li className="mb-2">Force a change in direction, resulting in the dropping of the Finance Bill.</li>
-        <li className="mb-2">Hold leadership accountable, leading to the dissolution of the Cabinet.</li>
+        <li className="mb-2">   <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Voice their decision</span> regarding the Finance Bill.</li>
+        <li className="mb-2">   <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Force a change in direction</span>Force a change in direction, resulting in the dropping of the Finance Bill.</li>
+        <li className="mb-2"  > <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Hold leadership accountable</span>, leading to the dissolution of the Cabinet.</li>
       </ol>
       <p className="mt-3 text-muted-foreground">
         KYUID stands as the bridge to ensure this energy is channeled into formal, peaceful, and
@@ -67,12 +79,30 @@ export default function ContactPage() {
         change their attitudes in:
       </p>
       <ol className="list-inside text-muted-foreground list-decimal">
-        <li className="mb-2">Environment</li>
-        <li className="mb-2">Culture</li>
-        <li className="mb-2">Education (Bridging the gap via TVET and certified training)</li>
-        <li className="mb-2">Gender</li>
-        <li className="mb-2">Social Welfare (Community support and Mercy Homes)</li>
-        <li className="mb-2">Health (Physician-led community outreach)</li>
+        <li className="mb-2">  <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Environment</span></li>
+        <li className="mb-2">  <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Culture</span></li>
+        <li className="mb-2">  <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Education </span>(Bridging the gap via TVET and certified training)</li>
+        <li className="mb-2">  <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Gender</span></li>
+        <li className="mb-2">  <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Social Welfare (Community support and Mercy Homes)</span></li>
+        <li className="mb-2">  <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Health</span>(Physician-led community outreach)</li>
       </ol>
       <h1 style={{
         color: "#418FE2",
@@ -82,11 +112,26 @@ export default function ContactPage() {
         We are proud to work alongside:
       </p>
       <ul className="list-inside text-muted-foreground list-disc">
-        <li className="mb-2">Un sustainable development goals</li>
-        <li className="mb-2">Global dialogue</li>
-        <li className="mb-2">World Bank (NAVCDP)</li>
-        <li className="mb-2">Generation Global (Tony Blair Institute)</li>
-        <li className="mb-2">UN Alliance of Civilizations</li>
+        <li className="mb-2"> <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Un sustainable development goals</span></li>
+        <li className="mb-2"> <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Global dialogue</span></li>
+        <li className="mb-2"> <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >World Bank (NAVCDP)</span></li>
+        <li className="mb-2"> <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Generation Global (Tony Blair Institute)</span></li>
+        <li className="mb-2"> <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >UN Alliance of Civilizations</span></li>
       </ul>
       <h1 style={{
         color: "#418FE2",
@@ -97,16 +142,28 @@ export default function ContactPage() {
       }} className="text-3xl font-semibold tracking-tight">The New Era: Leaderless & Tribeless</h1>
       <p className="mt-3 text-muted-foreground">
         The 2024 Gen Z movement changed the rules of engagement in Kenya. For the first time, a
-        generation stood up as "Leaderless and Tribeless." * Leaderless: Ensuring the movement
+        generation stood up as  <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >"Leaderless and Tribeless."</span> * <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Leaderless: </span> Ensuring the movement
         cannot be silenced by targeting individuals or "buying off" spokespeople.
       </p>
       <ul className="list-inside text-muted-foreground list-disc">
-        <li className="mb-2">Tribeless: Rejecting the "my tribe, my people" politics that has divided Kenya for
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Tribeless: </span> Rejecting the "my tribe, my people" politics that has divided Kenya for
           decades.</li>
       </ul>
       <h1 style={{
         color: "#418FE2"
-      }} className="text-3xl font-semibold tracking-tight">How KYUID Supports This Movement</h1>
+      }} className="text-3xl font-semibold tracking-tight">How <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >KYUID </span> Supports This Movement</h1>
       <p className="mt-3 text-muted-foreground">
         While the movement's strength is its decentralization, its challenge is maintaining momentum
         within the formal structures of government. KYUID acts as the "Safe and Brave Space" that
@@ -115,8 +172,11 @@ export default function ContactPage() {
       <ol className="list-inside text-muted-foreground list-decimal">
         <li className="mb-2">Moving from "Leaderless" to "Polycentric Leadership"</li>
         <p className="mt-3 ml-4 text-muted-foreground">
-          KYUID doesn't seek to appoint a single leader. Instead, we train thousands of
-          decentralized leaders across all 47 counties. By providing training in policy formulation and
+          KYUID doesn't seek to appoint a single leader. Instead, we train<span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >thousands of
+          decentralized leaders</span>  across all 47 counties. By providing training in policy formulation and
 
           oversight, we ensure that every youth in every village is equipped to be their own leader,
           making the movement impossible to co-opt.
@@ -127,9 +187,15 @@ export default function ContactPage() {
           bridges" by:
         </p>
         <ul className="list-inside ml-4 text-muted-foreground list-disc">
-          <li className="mb-2">Cultural Exchange & Dialogue: Breaking down ethnic stereotypes through shared
+          <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Cultural Exchange & Dialogue: </span>Breaking down ethnic stereotypes through shared
             social welfare and health projects.</li>
-          <li className="mb-2">Issue-Based Advocacy: Focusing on the Finance Bill, healthcare, and
+          <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Issue-Based Advocacy:</span> Focusing on the Finance Bill, healthcare, and
             education—issues that affect every Kenyan regardless of their surname.</li>
         </ul>
         <li className="mb-2">Formalizing the "Safe and Brave Space"</li>
@@ -138,9 +204,15 @@ export default function ContactPage() {
           KYUID provides a structured platform for "Tribeless" youth to:
         </p>
         <ul className="list-inside ml-4 text-muted-foreground list-disc">
-          <li className="mb-2">Participate in Budgeting: Engaging in County Integrated Development Plans
+          <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} > Participate in Budgeting:</span> Engaging in County Integrated Development Plans
             (CIDPs).</li>
-          <li className="mb-2">Policy Oversight: Using the physician and professional skills of our founders (like
+          <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Policy Oversight: </span>Using the physician and professional skills of our founders (like
             Athanas Mwangagi) to help youth audit health and social welfare policies.</li>
         </ul>
       </ol>
