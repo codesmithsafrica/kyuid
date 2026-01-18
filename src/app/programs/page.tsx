@@ -30,39 +30,81 @@ export default function ProgramsPage() {
         color: "#418FE2"
       }} className="text-3xl font-semibold tracking-tight">Kenya Youth: Unity in Diversity</h1>
       <p className="mt-3 max-w-prose text-muted-foreground">
-        The KYUID program is a tailor-made initiative specifically designed to meet the needs of
-        Kenyan youth as anchored in the Constitution of Kenya.We provide a safe and brave
+        The <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} > KYUID </span>program is a tailor-made initiative specifically designed to meet the needs of
+        Kenyan youth as anchored in the <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Constitution of Kenya</span>.We provide a safe and brave
         space for youth to fulfill their democratic rights through:
       </p>
-      <p className="mt-3 text-muted-foreground">Decision Making: Participation in the formulation and implementation of policies.</p>
-      <p className="mt-3 max-w-prose text-muted-foreground">Oversight: Promoting good governance, ethics, and livelihoods.</p>
-      <p className="mt-3 max-w-prose text-muted-foreground">Unity: Encouraging Kenya's diversities to "cross their bridges," enhancing peaceful
+      <p className="mt-3 text-muted-foreground"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Decision Making :</span> Participation in the formulation and implementation of policies.</p>
+      <p className="mt-3 max-w-prose text-muted-foreground"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Oversight:</span> Promoting good governance, ethics, and livelihoods.</p>
+      <p className="mt-3 max-w-prose text-muted-foreground"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Unity:</span> Encouraging Kenya's diversities to "cross their bridges," enhancing peaceful
         coexistence and socio-economic growth.</p>
-      <p className="mt-3 text-muted-foreground">We provide a safe and brave space where youth can:</p>
+      <p className="mt-3 text-muted-foreground">We provide a <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >safe and brave space</span> where youth can:</p>
       <ul className="list-inside text-muted-foreground list-disc">
-        <li className="mb-2">Engage and be heard: Fulfill their democratic rights by participating in
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Engage and be heard: </span>Fulfill their democratic rights by participating in
           decision-making processes.</li>
-        <li className="mb-2">Influence Policy: Involve themselves in the formulation, implementation, and
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Influence Policy:</span> Involve themselves in the formulation, implementation, and
           oversight of policies to promote ethics and good governance.</li>
-        <li className="mb-2">Bridge Diversities: We encourage Kenyan youth to "cross their bridges," fostering
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Bridge Diversities:</span> We encourage Kenyan youth to "cross their bridges," fostering
           peaceful coexistence and driving social and economic growth.</li>
       </ul>
       <h1 style={{
         color: "#418FE2"
       }} className="text-3xl font-semibold tracking-tight">Empowerment Through Legal Knowledge: The Training Pillar</h1>
 
-      <p className="mt-3 text-muted-foreground">Behind the Kenya Youth Unity in Diversity (KYUID) program is a faculty of legal
-        professionals and advocates dedicated to the intellectual and constitutional arming of
+      <p className="mt-3 text-muted-foreground">Behind the <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Kenya Youth Unity in Diversity (KYUID)</span> program is a faculty of legal
+        professionals and advocates dedicated to the <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >intellectual and constitutional arming</span>  of
         Kenyan youth.</p>
       <p className="mt-3 text-muted-foreground">We don’t just advocate for you; we train you to be your own best advocate. Our legal team
         transforms complex constitutional mandates into practical, everyday skills. Through our
         specialized training modules, we equip the 'Leaderless and Tribeless' generation with:</p>
       <ul className="list-inside text-muted-foreground list-disc">
-        <li className="mb-2">Constitutional Literacy: Understanding the laws that protect your right to
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Constitutional Literacy:</span> Understanding the laws that protect your right to
           participate.</li>
-        <li className="mb-2">Policy Analysis Skills: Training you to dissect bills and government budgets with
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Policy Analysis Skills:</span> Training you to dissect bills and government budgets with
           the precision of a lawyer.</li>
-        <li className="mb-2">Civic Competence: Mastering the technical procedures of public participation so
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Civic Competence:</span> Mastering the technical procedures of public participation so
           your voice cannot be dismissed on technicalities.</li>
 
 
@@ -72,7 +114,13 @@ export default function ProgramsPage() {
         fontWeight: "bold"
       }} className="text-3xl font-semibold tracking-tight">The Two Hands of KYUID: Training & Advocacy</h1>
       <p className="mt-3 text-muted-foreground">To empower the "Leaderless and Tribeless" generation, KYUID operates with two powerful
-        hands. One hand builds the person, and the other hand changes the system.</p>
+        hands. One hand builds the <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >person</span> , and the other hand changes the <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >system</span> </p>
       <h1 style={{
         color: "#418FE2",
 
@@ -81,11 +129,26 @@ export default function ProgramsPage() {
         fontStyle: "italic"
       }} className="mt-3 text-muted-foreground">Knowledge is the engine of the revolution.</p>
       <p className="mt-3 text-muted-foreground">Training is about equipping you with the skills, tools, and mindset to be independent and
-        effective. We don’t just want you to be loud; we want you to be competent.</p>
+        effective. We don’t just want you to be loud; we want you to be <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >competent.</span> </p>
       <ul className="list-inside text-muted-foreground list-disc">
-        <li className="mb-2">STEM & Logic: Led by Teacher Alfred Karani, we train you in critical thinking and
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >STEM & Logic:</span> Led by <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Teacher Alfred Karani</span>, we train you in critical thinking and
           problem-solving.</li>
-        <li className="mb-2">Legal Literacy: Led by Robert Kinyua and the legal team, we train you on how to
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Legal Literacy:</span> Led by <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Robert Kinyua </span>and the legal team, we train you on how to
           read the Constitution, understand the Finance Bill, and know your rights during arrest
           or protest.</li>
       </ul>
@@ -100,17 +163,41 @@ export default function ProgramsPage() {
         power. It is about making sure the "Leaderless and Tribeless" voice is present where
         decisions are made.</p>
       <ul className="list-inside text-muted-foreground list-disc">
-        <li className="mb-2">Policy Oversight: We create "Safe and Brave Spaces" where you can audit
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Policy Oversight: </span>We create "Safe and Brave Spaces" where you can audit
           government spending and demand transparency.</li>
-        <li className="mb-2">Civic Justice: Our legal advocates (Triza and Matildah) push for laws that protect
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Civic Justice:</span> Our legal advocates <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >(Triza and Matildah) </span>push for laws that protect
           youth interests and human rights.</li>
-        <li className="mb-2">Bridging Diversities: We advocate for a "Tribeless" Kenya by creating platforms
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Bridging Diversities:</span> We advocate for a "Tribeless" Kenya by creating platforms
           where youth from all 47 counties speak as one voice on issues like Health and
           Education.</li>
-        <li className="mb-2">Global Representation: Collaborating with the UN and Generation Global to bring
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Global Representation:</span> Collaborating with the<span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} > UN</span> and <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Generation Global</span> to bring
           Kenyan youth issues to the world stage.</li>
       </ul>
-      <p className="mt-3 mb-3 text-muted-foreground">The Goal of Advocacy: To ensure there is "No Decision About Us, Without Us.</p>
+      <p className="mt-3 mb-3 text-muted-foreground"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >The Goal of Advocacy:</span> To ensure there is "No Decision About Us, Without Us.</p>
 
       <h1 style={{
         color: "#418FE2",
@@ -121,13 +208,22 @@ export default function ProgramsPage() {
         <table className="w-full text-sm  text-muted-foreground text-left rtl:text-right text-body">
           <thead className="text-sm text-body bg-neutral-secondary-soft border-b rounded-base border-default">
             <tr>
-              <th scope="col" className="px-6 py-3 font-medium">
+              <th style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} scope="col" className="px-6 py-3 font-medium">
                 The Scenario
               </th>
-              <th scope="col" className="px-6 py-3 font-medium">
+              <th style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }}  scope="col" className="px-6 py-3 font-medium">
                 The Training Hand
               </th>
-              <th scope="col" className="px-6 py-3 font-medium">
+              <th style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }}  scope="col" className="px-6 py-3 font-medium">
                 The Advocacy Hand
               </th>
 
@@ -155,29 +251,56 @@ export default function ProgramsPage() {
       <h1 style={{
         color: "#418FE2",
       }} className="text-3xl mt-3 font-semibold tracking-tight">A Note to the Youth:</h1>
-      <p className="mt-3 mb-3 text-muted-foreground">Training without Advocacy makes you a "silent expert"—you have the skill but no power to
+      <p className="mt-3 mb-3 text-muted-foreground"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Training without Advocacy</span> makes you a "silent expert"—you have the skill but no power to
         use it.</p>
-      <p className="mt-3 mb-3 text-muted-foreground">Advocacy without Training makes you a "loud amateur"—you have the passion but no
+      <p className="mt-3 mb-3 text-muted-foreground"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >Advocacy without Training</span> makes you a "loud amateur"—you have the passion but no
         facts to back it up.</p>
       <h1 style={{
         color: "#418FE2",
       }} className="text-3xl mt-3 font-semibold tracking-tight">Why We Train (The Strategy)</h1>
-      <p className="mt-3 mb-3 text-muted-foreground">We believe that information is the greatest equalizer. By putting legal expertise into the
+      <p className="mt-3 mb-3 text-muted-foreground">We believe that <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >information is the greatest equalizer.</span> By putting legal expertise into the
         hands of the youth, we ensure that:</p>
       <ol className="list-inside text-muted-foreground list-decimal">
-        <li className="mb-2">You are protected: You know your rights under the Constitution.</li>
-        <li className="mb-2">You are professional: Your engagement with the government is backed by facts and
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >You are protected:</span> You know your rights under the Constitution.</li>
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >You are professional:</span> Your engagement with the government is backed by facts and
           legal logic.</li>
-        <li className="mb-2">You are independent: You no longer need "middlemen" to speak for you.</li>
+        <li className="mb-2"><span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >You are independent: </span>You no longer need "middlemen" to speak for you.</li>
       </ol>
 
       <h1 style={{
         color: "#418FE2",
       }} className="text-3xl mt-3 font-semibold tracking-tight">How this connects to your "Leaderless/Tribeless" goal:</h1>
-      <p className="mt-3 mb-3 text-muted-foreground">In a leaderless movement, every member must be trained. If only one person knows the
-        law, the movement is vulnerable. When all youth are trained in their constitutional rights, the
+      <p className="mt-3 mb-3 text-muted-foreground">In a leaderless movement, <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >every member must be trained.</span> If only one person knows the
+        law, the movement is vulnerable. When <span style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} >all youth</span> are trained in their constitutional rights, the
         movement becomes an unstoppable force for ethical governance.</p>
-      <p className="mt-6 mb-3 text-muted-foreground">KYUID gives you both.</p>
+      <p  style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} className="mt-6 mb-3 text-muted-foreground">KYUID gives you both.</p>
       {/* <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {programs.map((p) => (
           <Card key={p.title}>
