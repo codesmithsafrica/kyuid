@@ -1,13 +1,9 @@
 "use client";
-
-import { useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-
+import React, { useState } from 'react';
+// import ModelCard from '@/components/ModelCard';
+import TeamCard from '@/components/TeamCard';
+import { teamMembers, teamMembers1 } from '@/data/teamMembers';
 export default function ContactPage() {
-  const [sent, setSent] = useState(false);
 
   return (
     <div className="container mx-auto max-w-2xl px-4 py-12">
@@ -91,7 +87,6 @@ export default function ContactPage() {
         <li className="mb-2">World Bank (NAVCDP)</li>
         <li className="mb-2">Generation Global (Tony Blair Institute)</li>
         <li className="mb-2">UN Alliance of Civilizations</li>
-
       </ul>
       <h1 style={{
         color: "#418FE2",
@@ -131,28 +126,80 @@ export default function ContactPage() {
           Unity in Diversity is not just our name—it is our strategy. KYUID helps youth "cross their
           bridges" by:
         </p>
-              <ul className="list-inside ml-4 text-muted-foreground list-disc">
-        <li className="mb-2">Cultural Exchange & Dialogue: Breaking down ethnic stereotypes through shared
-social welfare and health projects.</li>
-        <li className="mb-2">Issue-Based Advocacy: Focusing on the Finance Bill, healthcare, and
-education—issues that affect every Kenyan regardless of their surname.</li>
-  
-
-      </ul>
+        <ul className="list-inside ml-4 text-muted-foreground list-disc">
+          <li className="mb-2">Cultural Exchange & Dialogue: Breaking down ethnic stereotypes through shared
+            social welfare and health projects.</li>
+          <li className="mb-2">Issue-Based Advocacy: Focusing on the Finance Bill, healthcare, and
+            education—issues that affect every Kenyan regardless of their surname.</li>
+        </ul>
         <li className="mb-2">Formalizing the "Safe and Brave Space"</li>
         <p className="mt-3 ml-4 text-muted-foreground">
-      The street is a powerful place to speak, but the boardroom is where the laws are written.
-KYUID provides a structured platform for "Tribeless" youth to:
+          The street is a powerful place to speak, but the boardroom is where the laws are written.
+          KYUID provides a structured platform for "Tribeless" youth to:
         </p>
-      <ul className="list-inside ml-4 text-muted-foreground list-disc">
-        <li className="mb-2">Participate in Budgeting: Engaging in County Integrated Development Plans
-(CIDPs).</li>
-        <li className="mb-2">Policy Oversight: Using the physician and professional skills of our founders (like
-Athanas Mwangagi) to help youth audit health and social welfare policies.</li>
-    
-
-      </ul>
+        <ul className="list-inside ml-4 text-muted-foreground list-disc">
+          <li className="mb-2">Participate in Budgeting: Engaging in County Integrated Development Plans
+            (CIDPs).</li>
+          <li className="mb-2">Policy Oversight: Using the physician and professional skills of our founders (like
+            Athanas Mwangagi) to help youth audit health and social welfare policies.</li>
+        </ul>
       </ol>
+            <h1 style={{
+        color: "#418FE2",
+        fontWeight: "bold"
+      }} className="text-4xl mb-4 mt-4 font-semibold tracking-tight">The KYUID Framework for Youth Inclusion</h1>
+      <h1 style={{
+        color: "#418FE2"
+      }} className="text-3xl font-semibold tracking-tight">A Message from our Founder, Dr. Peris Nyambura</h1>
+      <p className="mt-3  text-muted-foreground">
+          "The youth have shown that they are not the leaders of tomorrow—they are the leaders of
+          today. Our goal at WRI is to ensure that the 'Leaderless and Tribeless' spirit is protected and
+          empowered with the technical tools of governance so that no youth voice is ever silenced
+          again."
+        </p>
+              <h1 style={{
+        color: "#418FE2"
+      }} className="text-3xl mt-4 font-semibold tracking-tight">Meet Our Directors: The KYUID Leadership</h1>
+      <p className="mt-3  text-muted-foreground">
+      Behind the Kenya Youth Unity in Diversity (KYUID) program is a team of legal
+      professionals and advocates dedicated to the constitutional empowerment of Kenyan youth.
+      </p>
+              <h1 style={{
+        color: "#418FE2"
+      }} className="text-3xl mt-4 font-semibold tracking-tight">ADVOCATES</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-4 lg:grid-cols-3 xl:grid-cols-2 gap-2">
+          {teamMembers.map((member) => (
+            <TeamCard
+              key={member.id}
+              userpic={member.userpic}
+              name={member.name}
+              quote={member.quote}
+              bio={member.bio}
+
+              role={member.role}
+            />
+          ))}
+        </div>
+                      <h1 style={{
+        color: "#418FE2"
+      }} className="text-3xl mt-4 font-semibold tracking-tight">TRAINERS</h1>
+            <p className="mt-3  text-muted-foreground">
+   Behind the Kenya Youth Unity in Diversity (KYUID) program is a faculty of legal
+professionals and advocates dedicated to the intellectual and constitutional arming of
+Kenyan youth.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-4 lg:grid-cols-3 xl:grid-cols-2 gap-2">
+          {teamMembers1.map((member) => (
+            <TeamCard
+              key={member.id}
+              userpic={member.userpic}
+              name={member.name}
+              quote={member.quote}
+              bio={member.bio}
+              role={member.role}
+            />
+          ))}
+        </div>
     </div>
   );
 }
