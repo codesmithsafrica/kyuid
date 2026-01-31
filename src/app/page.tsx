@@ -35,11 +35,11 @@ export default function Home() {
             <div className="flex items-center gap-6 pt-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Users className="size-4" />
-                10 members
+                6 members
               </div>
               <div className="flex items-center gap-2">
                 <Megaphone className="size-4" />
-                1+ policy dialogues
+                1+ policy dialogue(s)
               </div>
             </div>
           </div>

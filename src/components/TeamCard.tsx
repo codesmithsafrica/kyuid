@@ -21,13 +21,13 @@ export default function TeamCard({ userpic, name, quote, bio, role }: TeamCardPr
     >
       <div className="relative bg-white rounded-2xl shadow-lg overflow-hidden">
         {/* Gradient overlay that appears on hover */}
-        <div className={`absolute inset-0 bg-gradient-to-br from-purple-600/20 to-blue-600/20 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`} />
+        <div className={`absolute inset-0 bg-gradient-to-br from-blue-600/30 to-blue-600/20 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`} />
         
         {/* Card content */}
         <div className="relative p-6">
           {/* User picture */}
           <div className="relative mb-4">
-            <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-gradient-to-r from-purple-400 to-pink-400">
+            <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-600 to-blue-400">
               <img
                 src={userpic}
                 alt={name}
@@ -35,7 +35,7 @@ export default function TeamCard({ userpic, name, quote, bio, role }: TeamCardPr
               />
             </div>
             {/* Decorative ring */}
-            <div className={`absolute inset-0 w-32 h-32 mx-auto rounded-full border-2 border-purple-300 transition-all duration-300 ${isHovered ? 'scale-110 opacity-50' : 'scale-100 opacity-0'}`} />
+            <div className={`absolute inset-0 w-32 h-32 mx-auto rounded-full border-2 border-blue-300 transition-all duration-300 ${isHovered ? 'scale-110 opacity-50' : 'scale-100 opacity-0'}`} />
           </div>
           
           {/* Name and role */}
@@ -49,9 +49,9 @@ export default function TeamCard({ userpic, name, quote, bio, role }: TeamCardPr
           {/* Quote */}
           <div className="mb-4">
             <blockquote className="text-center text-gray-700 italic text-sm relative">
-              <span className="absolute -top-2 -left-2 text-purple-300 text-2xl">"</span>
+              <span className="absolute -top-2 -left-2 text-blue-300 text-2xl">"</span>
               {quote}
-              <span className="absolute -bottom-2 -right-2 text-purple-300 text-2xl">"</span>
+              <span className="absolute -bottom-2 -right-2 text-blue-300 text-2xl">"</span>
             </blockquote>
           </div>
           
@@ -67,12 +67,12 @@ export default function TeamCard({ userpic, name, quote, bio, role }: TeamCardPr
             <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse" />
           </div>
           <div className={`absolute bottom-4 left-4 transition-all duration-300 ${isHovered ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-2'}`}>
-            <div className="w-2 h-2 bg-pink-400 rounded-full animate-pulse" />
+            <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" />
           </div>
         </div>
         
         {/* Bottom gradient accent */}
-        <div className="h-2 bg-gradient-to-r from-purple-500 to-blue-500" />
+        <div className="h-2 bg-gradient-to-r from-blue-800 to-blue-500" />
       </div>
     </div>
   );
