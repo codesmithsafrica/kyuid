@@ -15,8 +15,8 @@ export default function Home() {
               Youth Voice • National Impact
             </Badge>
             <h1 style={{
-              color:"#418FE2"
-            }}className="text-4xl font-semibold tracking-tight sm:text-5xl">
+              color: "#418FE2"
+            }} className="text-4xl font-semibold tracking-tight sm:text-5xl">
               Kenya Youth Unity in Diversity
             </h1>
             <p className="max-w-prose text-lg text-muted-foreground">
@@ -67,8 +67,8 @@ export default function Home() {
       <section className="container mx-auto px-4 py-16">
         <div className="mb-8 flex items-end justify-between">
           <div>
-            <h2  style={{
-              color:"#418FE2"
+            <h2 style={{
+              color: "#418FE2"
             }} className="text-2xl font-semibold tracking-tight">Focus Areas</h2>
             <p className="text-muted-foreground">Where we drive meaningful change</p>
           </div>
@@ -120,8 +120,8 @@ export default function Home() {
       <section className="container mx-auto px-4 pb-20">
         <div className="mb-8 flex items-end justify-between">
           <div>
-            <h2  style={{
-              color:"#418FE2"
+            <h2 style={{
+              color: "#418FE2"
             }} className="text-2xl font-semibold tracking-tight">Programs</h2>
             <p className="text-muted-foreground">Highlights from our national programs</p>
           </div>
@@ -132,18 +132,43 @@ export default function Home() {
           </Button>
         </div>
         <div className="grid gap-6 md:grid-cols-3">
-          {["County Youth Forums", "Policy Fellows", "Digital Skills Labs"].map(
+          {/* {["County Youth Forums", "Policy Fellows", "Digital Skills Labs"].map(
             (title, i) => (
               <Card key={i} className="h-full">
                 <CardHeader>
                   <CardTitle className="text-base">{title}</CardTitle>
                 </CardHeader>
                 <CardContent className="text-sm text-muted-foreground">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod lectus sed diam bibendum.
+                Training and mentorship for emerging youth leaders across counties.
                 </CardContent>
               </Card>
             )
-          )}
+          )} */}
+          <Card key={1} className="h-full">
+            <CardHeader>
+              <CardTitle className="text-base">{'County Youth Forums'}</CardTitle>
+            </CardHeader>
+            <CardContent className="text-sm text-muted-foreground">
+              Training and mentorship for emerging youth leaders across counties.
+            </CardContent>
+          </Card>
+          <Card key={2} className="h-full">
+            <CardHeader>
+              <CardTitle className="text-base">{'Policy Fellows'}</CardTitle>
+            </CardHeader>
+            <CardContent className="text-sm text-muted-foreground">
+              Inclusive policy dialogues,mock parliamentary sessions and civic engagement for youth representation.
+            </CardContent>
+          </Card>
+          <Card key={3} className="h-full">
+            <CardHeader>
+              <CardTitle className="text-base">{'Digital Skills Labs'}</CardTitle>
+            </CardHeader>
+            <CardContent className="text-sm text-muted-foreground">
+                Digital skills, entrepreneurship, and innovation for decent work.
+            </CardContent>
+          </Card>
+     
         </div>
       </section>
 

@@ -59,3 +59,16 @@ youth.`
   },
 
 ];
+
+export const teamMembers2: TeamMember[] = [
+
+  {
+    id: 1,
+    name: "Kelvin Randu",
+    role: "ICT & MEDIA DIRECTOR ",
+    userpic: "/team/8.jpg",
+    quote: `Ask not what KYUID can do for you, but what you can do for KYUID.`,
+    bio: `Kelvin Randu is a  Prolific software engineer with extensive experience in systems design, cybersecurity, and digital transformation. Serves as ICT Director for a youth advocacy organization, leading technology strategy, mentoring young innovators, and deploying scalable solutions that empower communities, strengthen governance, and expand access to education, opportunity, and digital inclusion through ethical innovation globally`
+  },
+
+];

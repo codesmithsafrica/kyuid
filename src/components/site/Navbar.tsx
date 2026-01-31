@@ -60,6 +60,20 @@ export function Navbar() {
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
+                            <NavigationMenuItem>
+                <Link href="/gallery" legacyBehavior passHref>
+                  <NavigationMenuLink className="px-3 py-2 text-sm font-medium hover:text-primary">
+                    Gallery
+                  </NavigationMenuLink>
+                </Link>
+              </NavigationMenuItem>
+                            <NavigationMenuItem>
+                <Link href="/livestream" legacyBehavior passHref>
+                  <NavigationMenuLink className="px-3 py-2 text-sm font-medium hover:text-primary">
+                    Livestream
+                  </NavigationMenuLink>
+                </Link>
+              </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
         </nav>

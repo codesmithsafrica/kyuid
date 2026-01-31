@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 // import ModelCard from '@/components/ModelCard';
 import TeamCard from '@/components/TeamCard';
-import { teamMembers, teamMembers1 } from '@/data/teamMembers';
+import { teamMembers, teamMembers1,teamMembers2 } from '@/data/teamMembers';
 export default function ContactPage() {
 
   return (
@@ -265,6 +265,24 @@ Kenyan youth.
       }} className="text-3xl mt-4 mb-6 font-semibold tracking-tight">Our Education & Mentorship Leadership</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-4 lg:grid-cols-3 xl:grid-cols-2 gap-2">
           {teamMembers1.map((member) => (
+            <TeamCard
+              key={member.id}
+              userpic={member.userpic}
+              name={member.name}
+              quote={member.quote}
+              bio={member.bio}
+              role={member.role}
+            />
+          ))}
+        </div>
+       <h1 style={{
+        color: "#418FE2"
+      }} className="text-3xl mt-4 font-semibold tracking-tight">ICT & MEDIA</h1>
+            <p className="mt-3  text-muted-foreground">
+   Behind the Kenya Youth Unity in Diversity (KYUID) program is a dedicated team of ICT and media professionals aiming to empower youth through technology and media.
+        </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 mt-4 lg:grid-cols-3 xl:grid-cols-2 gap-2">
+          {teamMembers2.map((member) => (
             <TeamCard
               key={member.id}
               userpic={member.userpic}
